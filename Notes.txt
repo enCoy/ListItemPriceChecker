@@ -1,0 +1,5 @@
+# to call the docker after building it
+# to build the docker: docker build -t pdf-price-tracker .
+# docker run --rm -e GOOGLE_API_KEY=%GOOGLE_API_KEY% -v "C:\Users\Cem Okan\PycharmProjects\AmazonPriceChecker":/app pdf-price-tracker
+
+# note that GOOGLE_API_KEY is set as env variable
